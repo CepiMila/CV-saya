@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(246, 243, 243, 0.1);
+    margin: 50px 0;
+}
+
+.left_Side {
+    background: #003147;
+    padding: 40px;
+    color: white;
+}
+
+.profileText {
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 20px;
+}
+
+.profileText img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.tittle {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul, .education ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contactInfo ul li {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.contactInfo ul li .icon {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.contactInfo ul li .text {
+    font-size: 16px;
+}
+
+.education ul li {
+    margin-bottom: 15px;
+}
+
+.right_Side {
+    background: #fff;
+    padding: 40px;
+}
+
+.right_Side .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.skills .box, .experience .box {
+    margin-bottom: 20px;
+}
+
+.skills .box h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.skills .percent {
+    height: 6px;
+    background: #f0f0f0;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.skills .percent div {
+    height: 100%;
+    background: #007bff;
+}
+
+.experience .box .year_company {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.experience .box .text {
+    font-size: 16px;
+}
